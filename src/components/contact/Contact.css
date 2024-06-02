@@ -1,0 +1,83 @@
+
+
+.contact-titles{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-head{
+    color:rgb(18, 101, 129);
+    text-decoration: underline;
+}
+
+.contact-desc{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.facebook{
+    color:blue;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.whatsapp{
+    color:rgb(0, 255, 76);
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.email{
+    color: red;
+    font-size: 30px;
+    padding-right: 10px;
+   
+}
+
+.phone{
+    color: black;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.social-icons{
+    text-align: center;
+    font-size: 15px;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+
+   
+    .social-icons{
+        font-size: 10px;
+        display: block;
+        padding:1rem;
+        margin-top: 30px;
+
+    }
+
+    .facebook{
+        margin-bottom: 20px;
+        
+    }
+
+    .email{
+        font-size: 22px;
+        padding: 2rem;
+    }
+
+    .whatsapp{
+        padding: 2rem;
+    }
+
+    .phone{
+        padding:2rem;
+    }   
+}

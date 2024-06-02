@@ -1,0 +1,61 @@
+.container{
+    width: 35%;
+}
+
+.carousel{
+    padding: 2rem 0;
+}
+
+.carousel img{
+    height: 50vh;
+    object-fit: cover;
+    width:20%;
+}
+
+.carousel p{
+    text-transform: uppercase;
+}
+
+.thumbs-wrapper{
+    display: none;
+}
+
+.carousel-status{
+    display: none;
+}
+
+.services-titles{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.services-head{
+    color:rgb(18, 101, 129);
+    text-decoration: underline;
+}
+
+.services-desc{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.baby-desc{
+    color:rgb(47, 107, 47);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.event-desc{
+    color:rgb(47, 107, 47);
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+}

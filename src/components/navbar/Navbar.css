@@ -1,0 +1,139 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 2;
+    position: fixed;
+    color: white;
+    background-color: rgb(18, 101, 129);
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.nav-menu li:hover{
+    color:rgb(165, 81, 81);
+    cursor: pointer;
+}
+
+li{
+    padding: 0 1rem;
+    
+}
+.hamburger{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 940px) {
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: -100vh;
+        position:absolute;
+        left: 0;
+        justify-content: space-between;
+        background-color: white;
+        transition: 0.3s;
+        color: rgb(18, 101, 129);
+        font-size: 20px;
+    }
+
+    .dark{
+        color: #000;
+    }
+
+    .active{
+        top: 80px;
+    }
+
+    .mobile-menu li{
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 4px solid black;
+        text-align: center;
+        
+    }
+    .mobile-nav{
+        margin: 1rem 0;
+        font-size: 20px;
+    }
+
+    .mobile-nav li{
+        margin: 1.1rem 0;
+    }
+
+    .icon{
+        font-size: 40px;
+        color: white;
+    }
+
+    .mobile-menu-bottom{
+        padding: 1rem;
+        justify-content: space-evenly;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin:auto;
+        padding:1rem;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        background-color:antiquewhite;
+    }
+    .social-icons .facebook{
+        padding-right: 20px;
+    }    
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-icons{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+
+    .facebook{
+        color:blue;
+        font-size: 30px;
+        padding-left:10px;
+    }
+
+    .whatsapp{
+        color:rgb(0, 255, 76);
+        font-size: 30px;
+        padding:1rem;
+    }
+
+    .email{
+        color: red;
+        font-size: 30px;
+
+    }
+
+    .phone{
+        color: black;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.container{
+    width: 35%;
+}
+
+.carousel{
+    padding: 2rem 0;
+}
+
+.carousel img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+.carousel p{
+    text-transform: uppercase;
+}
+
+.thumbs-wrapper{
+    display: none;
+}
+
+.carousel-status{
+    display: none;
+}
+
+.package-titles{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.package-head{
+    color:rgb(18, 101, 129);
+    text-decoration: underline;
+}
+
+.package-desc{
+    font-size: 18px;
+    padding-top: 15px;
+    
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+}

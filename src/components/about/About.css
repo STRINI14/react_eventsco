@@ -1,0 +1,19 @@
+.about-image{
+    margin-top: 20px;
+    width:100%;
+}
+
+@media screen and (max-width: 760px) {
+    .about-image{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
